@@ -1,3 +1,0 @@
-C:\Dev\FieldSelector\FieldSelector\bin\Debug\netstandard1.4\FieldSelector.deps.json
-C:\Dev\FieldSelector\FieldSelector\obj\Debug\netstandard1.4\FieldSelector.csprojResolveAssemblyReference.cache
-C:\Dev\FieldSelector\FieldSelector\obj\Debug\netstandard1.4\FieldSelector.AssemblyInfo.cs
