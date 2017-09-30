@@ -1,0 +1,8 @@
+C:\Dev\FieldSelector\FieldSelector\bin\Debug\netstandard1.6\FieldSelector.deps.json
+C:\Dev\FieldSelector\FieldSelector\obj\Debug\netstandard1.6\FieldSelector.csprojResolveAssemblyReference.cache
+C:\Dev\FieldSelector\FieldSelector\obj\Debug\netstandard1.6\FieldSelector.AssemblyInfo.cs
+C:\Dev\FieldSelector\FieldSelector\bin\Debug\netstandard1.6\FieldSelector.dll
+C:\Dev\FieldSelector\FieldSelector\bin\Debug\netstandard1.6\FieldSelector.pdb
+C:\Dev\FieldSelector\FieldSelector\obj\Debug\netstandard1.6\FieldSelector.dll
+C:\Dev\FieldSelector\FieldSelector\obj\Debug\netstandard1.6\FieldSelector.pdb
+C:\Dev\FieldSelector\FieldSelector\obj\Debug\netstandard1.6\FieldSelector.csproj.CoreCompileInputs.cache
