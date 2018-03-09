@@ -69,9 +69,9 @@ namespace FieldSelectorTests
             var fields = new List<string> { "doubleProperty" };
 
             dynamic result = SelectFields.FromObject(obj, fields);
-            Assert.Throws(typeof(RuntimeBinderException), () => result.intProperty);
-            Assert.Throws(typeof(RuntimeBinderException), () => result.stringProperty);
-            Assert.Throws(typeof(RuntimeBinderException), () => result.datetimeProperty);
+            Assert.Throws<RuntimeBinderException>(() => result.intProperty);
+            Assert.Throws<RuntimeBinderException>(() => result.stringProperty);
+            Assert.Throws<RuntimeBinderException>(() => result.datetimeProperty);
         }
 
         [Fact]
@@ -85,7 +85,7 @@ namespace FieldSelectorTests
                 dynamic result = SelectFields.FromObject(obj, fields);
             };
 
-            Assert.Throws(typeof(NullReferenceException), action);
+            Assert.Throws<NullReferenceException>(action);
         }
 
         [Fact]
@@ -101,7 +101,7 @@ namespace FieldSelectorTests
             var fields = new List<string> { "notAValidProperty" };
 
             Action action = () => SelectFields.FromObject(obj, fields);
-            Assert.Throws(typeof(NullReferenceException), action);
+            Assert.Throws<NullReferenceException>(action);
         }
     }
 }
